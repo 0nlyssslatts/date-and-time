@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="./styles/style.css">
     <script src="./script/main.js" defer></script>
     <script src="./theory/numbers.js"></script>
+    <script src="./theory/strings.js"></script>
+    <script src="./theory/funcs.js"></script>
+    <script src="./theory/date.js"></script>
     <title>date-and-time</title>
 </head>
 <body>
@@ -14,12 +17,12 @@
 
         <div class="main_container container">
 
-            <h3 class="output">12:12:12</h3>
+            <h3 class="output" id="output">12:12:12</h3>
 
-            <div class="button_container">
-                <button class="btn">Полная</button>
-                <button class="btn">Дата</button>
-                <button class="btn">Время</button>
+            <div class="button_container" id = "buttons">
+                <button class="btn" id="full" data-type="full">Полная</button>
+                <button class="btn" id="date" data-type="date">Дата</button>
+                <button class="btn" id="time" data-type="time">Время</button>
             </div>
 
         </div>
